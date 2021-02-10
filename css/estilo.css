@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+}
+
+
+body{
+    background: blue;
+    color: white;
+    margin: 0px;
+    
+                                                        ;
+}
+
+.principal {
+    background:rgb(247, 53, 134);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+
+h1{
+    font-family: 'Ranchers', cursive;
+    font-size: 25px;
+}
+
+
+h1 strong{
+    color: rgba(246, 11, 62, 0.822);
+}
+
+.principal img{
+     width: 200px;
+}
+
+.principal-button{
+    width:300px;
+    height: 60px;
+    background-color:rgb(255, 214, 231);
+    color:black;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor:pointer ;
+    margin-top: 15px;
+}
+
+    .somos {
+    background: rgb(253, 92, 159);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.somos h2{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.somos p{
+    margin-bottom: 20px;
+}
+/*
+.padre{
+    background: rgb(9, 61, 7);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row ;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hijo{
+    background: rgb(4, 4, 54);
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgba(165, 72, 86, 0.65);
+    font-size: 30px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*/
+.aplicar{
+    background-image: url(../img/mujeres.jpg);
+    height: 650px;
+    text-align: center;
+    align-items: center;
+}
+.aplicar h2{
+    font-size: 50px;
+    padding: 50px;
+    color: rgb(245, 3, 104);
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Dancing Script', cursive;
+padding-top: 200px;
+}
+/*.aplicar p{
+    font-size: 30px;
+    padding: 50px;
+    color: black;
+}
+
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.aplicar-detalles img{
+    width: 250px;
+}
+*/
+.tercera {
+    background: green;
+    text-align: left;
+} 
+
+p{ text-align: center;
+}
+
+.header{
+    background: rgb(209, 15, 96);
+    color: violet;
+    display: flex;
+    justify-content: space-between;
+    height:90px;
+    font-size: 20px;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.container1{
+    display: flex;
+    background: rgb(255, 159, 199);
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.container2{
+    background: rgb(255, 187, 215);
+    text-align: center;
+}
+
+.col1-container1{
+     width: 400px;/*
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: left;*/
+}
+
+.col2-container1{
+    width: 200px;
+    text-align: center;/*
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;*/
+}
+
+.col3-container1{
+    width: 300px;/*
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: right;*/
+}
+
+/*.col3-container1 img{
+   width: 25%; 
+   height: 65%;
+   display: flex;
+}*/
+
+.row1-contacto img{
+    width: 35px;
+    height: 35px;
+}
+
+.row2-contacto img{
+    width: 35px;
+    height: 35px;
+}
+.row2-contacto{
+    display: flex;
+    align-items: center;
+}
+.row2-contacto p{
+    padding-left: 10px;
+}
+.row1-redes img{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.insta{
+    padding-left: 35px;
+}
+
+.facebook{
+    padding-left: 25px;
+}
+.row1-contacto{
+    display:flex ;
+    margin: 10px 0px;
+}
+
+.row1-contacto p{
+    padding-left: 10px;
+}
